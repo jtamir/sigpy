@@ -17,7 +17,7 @@ def fft(input, oshape=None, axes=None, center=True, norm='ortho'):
         input (array): input array.
         oshape (None or array of ints): output shape.
         axes (None or array of ints): Axes over which to compute the FFT.
-        norm (Nonr or ``"ortho"``): Keyword to specify the normalization mode.
+        norm (None or ``"ortho"``): Keyword to specify the normalization mode.
 
     Returns:
         array: FFT result of dimension oshape.
